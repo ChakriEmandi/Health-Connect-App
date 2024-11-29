@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">Health Connect App</string>
+    <string name="open">Open navigation drawer</string>
+    <string name="close">Close navigation drawer</string>
+    <string name="about_app">
+        Hello there!\n
+        I\'m Emandi Chakri Sai Pavan, the creator of the HealthConnect App. It\'s my pleasure to introduce you to an app for my MAD Mini Project that\'s designed to manage your health easily and more conveniently.
+        This App is a tool that simplifies health management for everyone.\n
+        HealthConnect App offers a variety of functions that cater to your health needs. Here are some of the key features:\n
+
+        Doctor Appointments: Schedule appointments with doctors so that you don\'t need to visit the hospital for the same.\n
+        Medication Purchase: Order your medicines online and have them delivered to your doorstep, saving you time and trips to the pharmacy.\n
+        Health Insights: Access valuable health information and insights that empower you to make informed decisions about your well-being.\n
+        Cart: Where you can store all your medicines that you plan to buy later.\n
+        My Orders: Track your orders so that you know when you will receive your medication.\n
+
+        Thank you for choosing HealthConnect App as your health companion.\n
+        If you have any suggestions, feedback, or questions, please don\'t hesitate to reach out. Feel free to connect with me via the Feedback Page.\n
+        Stay healthy and connected,\n
+        Emandi Chakri Sai Pavan\n
+        Creator of HealthConnect App
+    </string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="select_doctor_prompt">Select a doctor</string>
+    <string name="select_time_prompt">Select a time slot</string>
+
+    <string-array name="doctor_names">
+        <item>Dr. Sarah Johnson</item>
+        <item>Dr. John Smith</item>
+        <item>Dr. Emily Davis</item>
+        <item>Dr. Robert Clark</item>
+        <item>Dr. Jessica Brown</item>
+        <item>Dr. Michael Wilson</item>
+        <item>Dr. Jennifer Martinez</item>
+        <item>Dr. William Taylor</item>
+        <item>Dr. Laura Anderson</item>
+        <item>Dr. James Lee</item>
+        <item>Dr. Olivia Harris</item>
+        <item>Dr. Daniel Jackson</item>
+        <item>Dr. Sophia White</item>
+        <item>Dr. Christopher Turner</item>
+        <item>Dr. Ava Martinez</item>
+        <item>Dr. Ethan Robinson</item>
+        <item>Dr. Mia Hall</item>
+        <item>Dr. Alexander Lewis</item>
+        <item>Dr. Grace Thompson</item>
+        <item>Dr. Benjamin Turner</item>
+    </string-array>
+    
+    <string-array name="time_slots">
+        <item>10:00 AM - 11:00 AM</item>
+        <item>11:30 AM - 12:30 PM</item>
+        <item>2:00 PM - 3:00 PM</item>
+        <item>3:30 PM - 4:30 PM</item>
+        <item>5:00 PM - 6:00 PM</item>
+    </string-array>
+
+    <string-array name="medicine_names">
+        <item>Aspirin</item>
+        <item>Ibuprofen</item>
+        <item>Paracetamol</item>
+        <item>Lisinopril</item>
+        <item>Amoxicillin</item>
+        <item>Omeprazole</item>
+        <item>Atorvastatin</item>
+        <item>Metformin</item>
+        <item>Levothyroxine</item>
+        <item>Azithromycin</item>
+        <item>Losartan</item>
+        <item>Simvastatin</item>
+        <item>Cetirizine</item>
+        <item>Furosemide</item>
+        <item>Fluoxetine</item>
+    </string-array>
+</resources>

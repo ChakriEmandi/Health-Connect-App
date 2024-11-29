@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AppointmentFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textStyle="bold"
+            android:layout_margin="70dp"
+            android:text="Book Appointment"
+            android:textSize="30sp"/>
+        <Spinner
+            android:id="@+id/doctorSpinner"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:minWidth="48dp"
+            android:layout_marginBottom="25dp"
+            android:prompt="@string/select_doctor_prompt" />
+
+        <EditText
+            android:id="@+id/dateEditText"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="Select a date"
+            android:minHeight="48dp"
+            android:minWidth="48dp"
+            android:layout_marginBottom="25dp"
+            android:clickable="true"
+            android:focusable="false"
+            android:inputType="none" />
+
+        <Spinner
+            android:id="@+id/timeSpinner"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:minWidth="48dp"
+            android:layout_marginBottom="25dp"
+            android:prompt="@string/select_time_prompt" />
+
+        <Button
+            android:id="@+id/submitButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Book" />
+    </LinearLayout>
+
+</ScrollView>
